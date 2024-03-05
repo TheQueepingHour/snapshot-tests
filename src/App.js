@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {myCard as githubCard} from './GitHubCard';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <h2>Hey</h2>
+        <githubCard />
       </header>
     </div>
   );

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {myCard as githubCard} from './GitHubCard';
+import GitHubCard from './GitHubCard';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
         >
           Learn React
         </a>
-        <h2>Hey</h2>
-        <githubCard />
+        <h2>H2 Test</h2>
+        <GitHubCard />
       </header>
     </div>
   );

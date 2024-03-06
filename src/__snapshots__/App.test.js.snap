@@ -28,9 +28,32 @@ exports[`renders a snapshot 1`] = `
       Learn React
     </a>
     <h2>
-      Hey
+      H2 Test
     </h2>
-    <githubCard />
+    <div>
+      <div
+        className="card"
+      >
+        <img
+          className="card-img-top"
+          src="../public/Subject.png"
+        />
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title h5"
+          >
+            TheQueepingHour
+          </div>
+          <p
+            className="card-text"
+          >
+            I'm a new developer that's learning all I can in order to pursue a career in software development.
+          </p>
+        </div>
+      </div>
+    </div>
   </header>
 </div>
 `;

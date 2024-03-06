@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card'
 
-export default function myCard() {
+export default function GitHubCard() {
     return(
         <div>
             <Card>
